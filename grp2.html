@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="grp2.css"></link>
+        <title>To do list with html.css.js</title>
+    </head>
+    <header>
+        <div class="showcase">
+        <div class="nav">
+        <nav>
+                <button>Register</button>
+                <button>Sign In</button>
+                <i class="fa-solid fa-user"></i>
+            
+        </nav>
+    </div>
+    <h2>
+                Strike Out <span class="branding">Do</span>  List
+            </h2>
+            <h4> Your very own personalised todo list, to help you keep track of your activities and keep you motivated.</h4>
+        </div>
+        <!-- <div class="searchbar">
+            <input type="text" placeholder="My to do list options">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>-->
+    </header>
+    <body>
+        <div class="container">
+            <!-- container to hold the form
+
+            -->
+            <div class="app">
+                <p>Let's create your List!</p>
+                
+                <form>
+                    <!-- where new taks are typed-->
+                    <input type="text" name="item" id="item" placeholder="Add a new task...">
+                    <button type="submit">&plus;</button> <!-- &#10133 &#10134;look into more of these short cuts &plus called dingbats lol etc-->
+                </form>
+                 <ul> <!-- the items below were filling in space during coding. you can comment them out to see how it chanes the lay out-->
+                    <!--<li> --> 
+                        <!-- where added tasks are placed to edit remove or add
+                      <input type="checkbox" onclick="taskComplete(this)" class="check">
+                        <span type="text" value="My Task" class="task" onfocus="getCurrentTask(this)" onblur="editTask(this)"></span>
+-->
+                       
+                        <!--<button onclick="removeTask(this)">&minus;</button>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+        <script src="grp2.js"></script>
+    </body>
+    <footer>
+        <p>&copy;CWW Tech 2023 Group 2</p>
+    </footer>
+</html>
